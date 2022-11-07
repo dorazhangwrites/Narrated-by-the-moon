@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+    <title> Project - Hello,Moon</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="dist/aframe-particle-system-component.min.js"></script>
+    <script src="dist/aframe-html-shader.min.js"></script>
+  </head>
+  <body>
+
+    <a-scene id="scene" cursor="rayOrigin: mouse" update-text fog="type: linear; color: #AAB">
+      <!-- texture assets here  -->
+      <!-- Moon Image Source: Moon Color Map from NASA Scientific Visualization Studio, https://svs.gsfc.nasa.gov/cgi-bin/details.cgi?aid=4720 -->
+
+      <a-assets>
+        <img id="highlight1" src="images/radial-highlight.png">
+        <img id="intro1" src="images/nc1.png">
+        <img id="enterBtn" src="images/Artboard 5.png">
+        <img id="moon" src="images/moon_texture.jpeg">
+      </a-assets>
+
+      <!-- cursor -->
+      <a-entity id="rig">
+        <a-entity camera position="2 4.5 15" id="camera" look-controls wasd-controls move-camera>
+        </a-entity>
+      </a-entity>
+
+      <!-- environment -->
+      <a-sky src="#moon"></a-sky>
+      <!-- SOURCE: Aframe - Sphere and Fog -->
+      <a-entity position="0 2.25 -15" particle-system="preset: snow; particleCount: 5000"></a-entity>
+     
+      <!-- intro screen -->
+      <a-image src='#intro1'
+               width = '20'
+               height = '9'
+               position="0 6 -6"></a-image>
+
+      <!-- game screen -->
+      <!-- position="-7.2 2.4 -4.5" -->
+      <a-link href="moon.html" 
+              title="the moon room"
+              image="#enterBtn"
+              position="13 5.5 -6"
+              scale=".7 .7 .7"></a-link>
+
+    </a-scene>
+  </body>
+
+</html>
