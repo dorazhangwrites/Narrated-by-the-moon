@@ -10,6 +10,6 @@ the moon room to seek a geniune conversation.
 
 **INSTRUCTION**
 
-<img width="500" height="500" alt="vid_instruction" src="https://user-images.githubusercontent.com/111608674/200978494-e7da3753-8c9a-4413-86e0-87a3ffcf61da.png">
+<img width="300" height="300" alt="vid_instruction" src="https://user-images.githubusercontent.com/111608674/200978494-e7da3753-8c9a-4413-86e0-87a3ffcf61da.png">
 
 Use mouse and arrow keys to navigate the scene. Click on the moving boxes to reach a step closer to the moon. 
