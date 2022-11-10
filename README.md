@@ -1,7 +1,7 @@
 # Narrated-by-the-moon
 
 ABOUT
-<img width="1440" alt="pg4_demo1" src="https://user-images.githubusercontent.com/111608674/200978165-56fe1f0d-e262-4174-9210-48191f9dce07.png">
+<img width="500" alt="pg4_demo1" src="https://user-images.githubusercontent.com/111608674/200978165-56fe1f0d-e262-4174-9210-48191f9dce07.png">
 
 “Narrated by the Moon” makes up part 2 of the two-part WebXR experience “Hello, moon”. 
 It opens with the ending of chapter 1 as the man goes further on this journey entering 
